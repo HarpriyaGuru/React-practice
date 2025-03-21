@@ -4,11 +4,7 @@ const Togglebtn = () => {
     const [toggle, setToggle] = useState("Off") 
 
     function handleToggle() {
-        if (toggle === "Off") { 
-            setToggle("On")
-        } else {
-            setToggle("Off")
-        }
+        toggle =="Off" ? setToggle("On") :setToggle("Off")
     }
 
     return (
